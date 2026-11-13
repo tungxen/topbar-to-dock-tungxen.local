@@ -38,46 +38,7 @@ gnome-extensions prefs topbar-to-dock@tungxen.local
 ```
 
 Settings are also available through Extension Manager.
-
-### Upgrading from the local prototype
-
-The prototype UUID was `dock2@tungxen.local`. Disable it before switching:
-
-```sh
-gnome-extensions disable dock2@tungxen.local
-```
-
-Install the new package, log out and back in, and enable
-`topbar-to-dock@tungxen.local`. The installed directory must match this UUID.
-Icon padding settings use the new `org.gnome.shell.extensions.topbar-to-dock`
-schema and start with defaults; prototype settings are not migrated automatically.
-Ubuntu Dock's size and position settings are also retained.
-
-## Build
-
-From this directory:
-
-```sh
-glib-compile-schemas --strict schemas
-mkdir -p dist
-gnome-extensions pack --force --out-dir=dist --extra-source=LICENSE .
-```
-
-The archive contains the runtime code, preferences, stylesheet, metadata,
-GSettings schema, and license. It does not contain the Git history or build output.
-
-## Publishing
-
-Sign in at <https://extensions.gnome.org/upload/> and submit the release ZIP.
-Submissions are subject to GNOME's extension review before public availability.
-
-The extension depends on Ubuntu Dock's internal interfaces and changes top bar
-behavior. Reviewers may request changes before approving distribution.
-
-Validation so far includes JavaScript syntax checks, GSettings schema compilation,
-native settings binding checks, and simulated dock lifecycle tests. A full
-interactive GNOME Shell test on a clean supported installation remains necessary
-before describing the release as broadly tested.
+https://extensions.gnome.org/extension/11755/top-bar-to-dock/
 
 ## License
 
