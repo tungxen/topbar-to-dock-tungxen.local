@@ -23,6 +23,8 @@ GNOME Shell versions are not currently supported.
 - Hide the top bar and release its reserved screen area.
 - Configure Bottom/Top position, icon size, and horizontal/vertical icon padding.
 - Restore native controls and styles when disabled.
+<img width="2560" height="1440" alt="Screenshot From 2026-11-13 16-05-24-min" src="https://github.com/user-attachments/assets/24f9680d-f2c4-42d2-a5f4-64680ced8b8a" />
+<img width="2560" height="1440" alt="Screenshot From 2026-11-13 16-22-05-min" src="https://github.com/user-attachments/assets/511bf3b1-f226-4ab5-9f3f-d9cbf25c4391" />
 
 ## Install a release ZIP
 
