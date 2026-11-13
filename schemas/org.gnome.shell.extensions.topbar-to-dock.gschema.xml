@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.topbar-to-dock" path="/org/gnome/shell/extensions/topbar-to-dock/">
+    <key name="padding-horizontal" type="i">
+      <range min="0" max="30"/>
+      <default>14</default>
+      <summary>Left and right icon padding in pixels</summary>
+    </key>
+    <key name="padding-vertical" type="i">
+      <range min="-4" max="20"/>
+      <default>2</default>
+      <summary>Top and bottom icon padding in pixels</summary>
+    </key>
+  </schema>
+</schemalist>

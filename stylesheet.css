@@ -1,0 +1,119 @@
+.dock2-app-button {
+    border-radius: 12px !important;
+}
+
+.dock2-app-button:hover,
+.dock2-app-button:focus,
+.dock2-app-button:active,
+.dock2-app-button:checked,
+.dock2-app-button.focused {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.dock2-system {
+    /* PanelMenu.ButtonBox allocates horizontal padding using these values. */
+    -minimum-hpadding: 12px;
+    -natural-hpadding: 12px;
+}
+
+.dock2-clock {
+    padding: 8px 12px;
+    color: #f2f2f2;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.dock2-clock:hover,
+.dock2-clock:active,
+.dock2-clock:checked {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.dock2-system {
+    padding: 8px 12px;
+    color: #f2f2f2;
+    border-radius: 12px;
+}
+
+.dock2-system:hover,
+.dock2-system:active,
+.dock2-system:checked {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.dock2-system .panel-status-indicators-box {
+    spacing: 6px;
+}
+
+.dock2-system .system-status-icon {
+    icon-size: 16px;
+}
+
+.dock2-tray {
+    -minimum-hpadding: 8px;
+    -natural-hpadding: 8px;
+    color: #f2f2f2;
+    border-radius: 12px;
+}
+
+.dock2-tray:hover,
+.dock2-tray:active,
+.dock2-tray:checked {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.dock2-tray .system-status-icon {
+    icon-size: 16px;
+}
+
+.dock2-activities {
+    -minimum-hpadding: 12px;
+    -natural-hpadding: 12px;
+    color: #f2f2f2;
+    font-size: 11pt;
+    border-radius: 12px;
+}
+
+.dock2-activities:hover,
+.dock2-activities:focus,
+.dock2-activities:checked {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* The native workspace dots normally receive these rules under #panel. */
+.dock2-activities StBoxLayout {
+    padding: 0 0.2045em;
+    spacing: 5px;
+}
+
+.dock2-activities .workspace-dot {
+    border-radius: 999px;
+    min-width: 0.5455em;
+    min-height: 0.5455em;
+    background-color: #f2f2f2;
+}
+
+.dock2-desktop {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.dock2-desktop.horizontal {
+    width: 6px;
+    min-width: 6px;
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.dock2-desktop.vertical {
+    height: 6px;
+    min-height: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.dock2-desktop:hover,
+.dock2-desktop:focus,
+.dock2-desktop:checked {
+    background-color: rgba(255, 255, 255, 0.25);
+}

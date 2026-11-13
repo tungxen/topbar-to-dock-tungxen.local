@@ -1,0 +1,8 @@
+{
+  "uuid": "topbar-to-dock@tungxen.local",
+  "name": "Top Bar to Dock",
+  "description": "Move GNOME top bar controls into Ubuntu Dock and reclaim screen space. Access your calendar, notifications, Activities, and background app tray icons directly from the dock. Quick Settings keeps Wi-Fi, Bluetooth, volume, and power controls within reach.\n\nIncludes a Show Desktop button, Top/Bottom dock placement, icon size, and icon padding settings. The top bar is hidden while enabled; native controls are restored when disabled.\n\nRequires GNOME Shell 50 and Ubuntu Dock (ubuntu-dock@ubuntu.com). Background app tray icons require an indicator provider such as Ubuntu AppIndicators. This extension does not provide a standalone dock.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.topbar-to-dock",
+  "version": 1
+}
