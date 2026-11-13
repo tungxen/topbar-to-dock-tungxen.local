@@ -5,16 +5,8 @@ app tray icons into Ubuntu Dock. Hide the top bar and reclaim screen space, with
 Show Desktop, dock position, icon size, and icon padding settings.
 
 ## Requirements
-
 - GNOME Shell 50.
-- Ubuntu Dock (`ubuntu-dock@ubuntu.com`) installed and enabled.
-- An indicator provider, such as Ubuntu AppIndicators, for background app icons.
-
-This extension uses Ubuntu Dock's internal APIs. Other dock implementations and
-GNOME Shell versions are not currently supported.
-
 ## Features
-
 - Move Activities and Show Apps to the left of the dock.
 - Add a small Show Desktop strip before Activities. Click again to restore the
   windows minimized by the strip on the current workspace.
