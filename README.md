@@ -18,6 +18,8 @@ Show Desktop, dock position, icon size, and icon padding settings.
 <img width="2560" height="1440" alt="Screenshot From 2026-11-13 16-22-05-min" src="https://github.com/user-attachments/assets/511bf3b1-f226-4ab5-9f3f-d9cbf25c4391" />
 <img width="2560" height="1440" alt="Screenshot From 2026-11-13 16-05-24-min" src="https://github.com/user-attachments/assets/24f9680d-f2c4-42d2-a5f4-64680ced8b8a" />
 
+## Donations
+<a href='https://ko-fi.com/H8H82AKOHL' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 ## Install a release ZIP
 
 ```sh
